@@ -6,15 +6,16 @@ by: Ata Akca
 
 (picture from: https://news.schoolsdo.org/)
 
----
 
 ### Problem statement
 
-With SAT going for a record of 2 million participations, the College Board wants to keep moving forward with the trend. So the Data Science Team is requested to investigate on the data to find out which states they should invest on. The goal is to find a pain point for a state and suggest a solution to raise the participation rates for the SAT among students.
-
 ---
 
+With SAT going for a record of 2 million participations, the College Board wants to keep moving forward with the trend. So the Data Science Team is requested to investigate on the data to find out which states they should invest on. The goal is to find a pain point for a state and suggest a solution to raise the participation rates for the SAT among students.
+
 ### Executive Summary
+
+---
 
 This project consisted of cleaning and merging of 2017 and 2018 SAT and ACT scores as well as participation rates. The data was properly imported for any external users to inspect.
 
@@ -32,9 +33,9 @@ An outside research was made to support the evidence found while exploring data,
 - [2018 ACT Scores](./data/act_2018.csv)
 - [2018 SAT Scores](./data/sat_2018.csv)
 
----
-
 ### Conclusions and Recommendations
+
+---
 
 Three different states were put under scope:
 
@@ -56,9 +57,9 @@ To increase the number of people taking tests can rely on several different crit
 - Self-paid or financed by the state
 - Researching parents impressions on the tests
 
----
-
 ### Contents
+
+---
 
 - [2017 Data Import & Cleaning](./code/Project_Analysis.ipynb/#Data-Import-and-Cleaning)
 - [2018 Data Import and Cleaning](./code/Project_Analysis.ipynb/#2018-Data-Import-and-Cleaning)
@@ -68,9 +69,9 @@ To increase the number of people taking tests can rely on several different crit
 - [Outside Research](./code/Project_Analysis.ipynb/#Outside-Research)
 - [Conclusions and Recommendations](./code/Project_Analysis.ipynb/#Conclusions-and-Recommendations)
 
----
-
 ### Data Dictionary
+
+---
 
 |Column Name|Type|Dataset|Description|
 |---|---|---|---|
@@ -92,9 +93,9 @@ To increase the number of people taking tests can rely on several different crit
 |act_18_participation|float|ACT|Participation rate of eligible population for ACT '18|
 |act_18_composite|float|ACT|Composite score for ACT '18|
 
----
-
 ### References
+
+---
 
 - https://www.daytondailynews.com/news/too-much-testing-some-schools-angry-with-ohio-act-sat-mandate/5lPdirdJ68IuXs1ez7Mv7L/
 
